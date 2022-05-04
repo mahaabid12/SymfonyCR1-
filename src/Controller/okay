@@ -1,0 +1,9 @@
+name: 'app_cv', 
+    requirements:[
+        "_locale"=>"fr|en",
+        "section"=>"rt|gl",
+        "age"=> "\d{1,2}"
+        
+        
+   ])]
+   /{nom}/{prenom}/{age}/{section}/{_locale?fr}/{slug?symfony}.{_format?html}'
